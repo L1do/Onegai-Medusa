@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7AD02831-ADC8-C2EC-CB41-B9A881EE1D28}</ProjectGuid>
+    <ProjectGuid>{88B2F131-5999-D6BC-EC7B-6612AE6DCA96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_2_0;UNITY_2017_2;UNITY_2017;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_SPATIALTRACKING;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -44,15 +44,13 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
@@ -68,8 +66,6 @@
      <Compile Include="Assets\Script\AudioPlayer.cs" />
      <Compile Include="Assets\Script\BackToStartManager.cs" />
      <Compile Include="Assets\Script\BatsuCollisionManeger.cs" />
-     <Compile Include="Assets\Script\ButtonTweenManager.cs" />
-     <Compile Include="Assets\Script\CameraShakeManager.cs" />
      <Compile Include="Assets\Script\CheckHumanHit.cs" />
      <Compile Include="Assets\Script\CheckTunnelOut.cs" />
      <Compile Include="Assets\Script\CloudManeger.cs" />
@@ -110,7 +106,6 @@
      <Compile Include="Assets\Script\SoundEffectManager.cs" />
      <Compile Include="Assets\Script\SpriteMananger.cs" />
      <Compile Include="Assets\Script\StartManager.cs" />
-     <Compile Include="Assets\Script\TweenManager.cs" />
      <Compile Include="Assets\Script\VectorExtensions.cs" />
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_Collider.cs" />
      <Compile Include="Assets\SpriteStudio\Script\Script_SpriteStudio_ControlPrefab.cs" />
@@ -129,6 +124,44 @@
      <Compile Include="Assets\SpriteStudio\ScriptLibrary\Utility\Random\XorShift32.cs" />
      <Compile Include="Assets\SpriteStudio\ScriptLibrary\Utility\TableCellChange.cs" />
      <Compile Include="Assets\SpriteStudio\ScriptLibrary\Utility\TableMaterial.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Control\AnimationParts.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Control\AnimationTrack.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Control\Effect.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\Attribute.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\AttributeImporter.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttribute_Codec\CPE_Fiyweifgt.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttribute_Codec\CPE_Interpolate.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttribute_Codec\StandardCPE.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttribute_Codec\StandardUncompressed.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttributeContainer.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Data\Animation\PackAttributeFunction.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Library_SpriteStudio6.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Utility\Random\MersenneTwister.cs" />
+     <Compile Include="Assets\SpriteStudio6\Library\Utility\Random\XorShift32.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionAnimation.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionCell.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionMaterial.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionMisc.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionParts.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Root\FunctionTrack.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\RootEffect\FunctionAnimation.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\RootEffect\FunctionCell.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\RootEffect\FunctionMaterial.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_Collider.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_ControlPrefab.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_DataAnimation.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_DataCellMap.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_DataEffect.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_HolderAssetUnityNative.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_PartsUnityNative.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_Root.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_RootEffect.cs" />
+     <Compile Include="Assets\SpriteStudio6\Script\Script_SpriteStudio6_RootUnityNative.cs" />
+     <Compile Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\Script\Script_Sample_CounterComplex.cs" />
+     <Compile Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\Script\Script_Sample_CounterSimple.cs" />
+     <Compile Include="Assets\SpriteStudio6Sample\DebugFrameByFrame\Script\Script_SpriteStudio6_DebugFrameByFrame.cs" />
+     <Compile Include="Assets\SpriteStudio6Sample\Doll\Script\Script_Sample_DollRun.cs" />
+     <Compile Include="Assets\SpriteStudio6Sample\Doll\Script\Script_Sample_DollTrick.cs" />
      <Compile Include="Assets\SpriteStudioSample\basic\script\instance_sample.cs" />
      <Compile Include="Assets\SpriteStudioSample\basic\script\player.cs" />
      <Compile Include="Assets\SpriteStudioSample\basic\script\sseffect.cs" />
@@ -147,72 +180,132 @@
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_UnityNative.cginc" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Sub.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_MulNA.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_NonBatch.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Scr.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Sub.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Inv.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Stencil_SpriteStudio6.cginc" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add2.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Sub.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Mask_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\Shader_Data_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Particle_SpriteStudio.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Exc.shader" />
      <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+     <None Include="Assets\SpriteStudio6Sample\Doll\SpriteStudioProject\SS6PU_ImportSetting.txt" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_SkinnedMesh_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Draw.shader" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\SpriteStudioSample\basic\SpriteStudioProject\BachImport.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\Shader_Data_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Inv.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Sprite_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Documents\BatchImporter\List_BatchImporter.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_PreDraw.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Sub.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_MulNA.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Mix.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Exc.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mul.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_MulNA.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderPixel_Sprite_SpriteStudio.cginc" />
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\SpriteStudio6Sample\Doll\List_BatchImporter.txt" />
      <None Include="Assets\SpriteStudio\Shader\Particle_SpriteStudio_Add.shader" />
+     <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\SpriteStudioProject\SS6PU_ImportSetting.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_MulNA.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative.shader" />
      <None Include="Assets\SpriteStudioSample\Gauge\BachImport.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\SkinnedMesh_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudioSample\BitmapFontNumeric\SpriteStudioProject\BachImport.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Effect_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Effect_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Inv.shader" />
      <None Include="Assets\SpriteStudio\Editor\Sample\BatchImport\BatchList\ListingSample.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Sprite_SpriteStudio_Add.shader" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Sprite_SpriteStudio.cginc" />
      <None Include="Assets\SpriteStudio\Shader\Base\ShaderVertex_Particle_SpriteStudio.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Mask_Sub.shader" />
+     <None Include="Assets\SpriteStudio6Sample\BitmapFontNumeric\List_BatchImporter.txt" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mul.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderVertex_Sprite_SpriteStudio6.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Scr.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Base\ShaderPixel_Sprite_UnityNative.cginc" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6_Thru_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Stencil_SpriteStudio6_Clear.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_UnityNative_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Mask_Add.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Effect_SpriteStudio6_Thru_Mix.shader" />
+     <None Include="Assets\SpriteStudio6\Shader\Sprite_SpriteStudio6.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UIAutomation">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Users/lawre/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>/Users/215q026/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Purchasing">
- <HintPath>C:/Users/lawre/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
+ <HintPath>/Users/215q026/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{51809D8A-4974-EEE8-BC66-1067359E7A1B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{B4DA3DD4-1B26-EAFB-4A5B-CAF51CF926A9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
