@@ -17,7 +17,7 @@ public class UIHannouImageManager : MonoBehaviour {
 	
 	void Awake()
 	{
-		AshibaShaderManager.IsHit = IsCollided;
+		
 		GoodHannouImage.gameObject.SetActive(false);
 		BadHannouImage.gameObject.SetActive(false);
 	}
