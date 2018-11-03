@@ -17,11 +17,11 @@ public class UIHannouImageManager : MonoBehaviour {
 	
 	void Awake()
 	{
-//		AshibaShaderManager.IsHit = IsCollided;
+		AshibaShaderManager.IsHit = IsCollided;
 		GoodHannouImage.gameObject.SetActive(false);
 		BadHannouImage.gameObject.SetActive(false);
 	}
-	/* 
+	
 	void Update()
 	{
 		if(IsHit = true)
@@ -29,10 +29,10 @@ public class UIHannouImageManager : MonoBehaviour {
 			GoodHannouImage.gameObject.SetActive(true);
 			
 		}
-		else if(AshibaShaderManager.IsHit = true)
+		else if(IsCollided = true)
 		{
 			BadHannouImage.gameObject.SetActive(true);
 			
 		}
-	}*/
+	}
 }
