@@ -24,7 +24,7 @@ public class UIHannouImageManager : MonoBehaviour {
 	
 	void Update()
 	{
-		if(IsHit = true)
+		if(IsCollided = true)
 		{
 			GoodHannouImage.gameObject.SetActive(true);
 			
