@@ -10,29 +10,37 @@ public class UIHannouImageManager : MonoBehaviour {
 	// get the script the handles the "Ashiba" Shader
 
 	public bool IsCollided = false;
-
-	public AshibaShaderManager AshibaShaderManager;
+	public float fadeSpeed = 10f;
+	//public AshibaShaderManager AshibaShaderManager;
 
 
 	
-	void Awake()
+	void Start()
 	{
 		
 		GoodHannouImage.gameObject.SetActive(false);
 		BadHannouImage.gameObject.SetActive(false);
 	}
 	
-	void Update()
+	void OnTriggerEnter()
 	{
-		if(IsCollided = true)
-		{
-			GoodHannouImage.gameObject.SetActive(true);
-			
-		}
-		else if(IsCollided = true)
+		//GoodHannouImage.transform.Translate(Vector2.up* fadeSpeed * Time.deltaTime);
+		//BadHannouImage.transform.Translate(Vector2.up* fadeSpeed * Time.deltaTime);
+
+		GoodHannouImage.gameObject.SetActive(true);
+		IsCollided = true;
+
+		if(IsCollided = false)
 		{
 			BadHannouImage.gameObject.SetActive(true);
-			
 		}
+	}
+
+	void FixedUpdate()
+	{
+		//GoodHannouImage.transform.Translate(-Vector2.up* fadeSpeed * Time.deltaTime);
+		//BadHannouImage.transform.Translate(-Vector2.up* fadeSpeed * Time.deltaTime);
+
+		
 	}
 }
