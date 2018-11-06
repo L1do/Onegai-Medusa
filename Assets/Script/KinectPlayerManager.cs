@@ -35,26 +35,26 @@ public class KinectPlayerManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-//         Ref = Player.transform.Find("Character1_Reference").gameObject;
-//
-//          Hips = Ref.gameObject.transform.Find("Character1_Hips").gameObject;
-//          LeftUpLeg = Hips.transform.Find("Character1_LeftUpLeg").gameObject;
-//          LeftLeg = LeftUpLeg.transform.Find("Character1_LeftLeg").gameObject;
-//          RightUpLeg = Hips.transform.Find("Character1_RightUpLeg").gameObject;
-//          RightLeg = RightUpLeg.transform.Find("Character1_RightLeg").gameObject;
-//          Spine1 = Hips.transform.Find("Character1_Spine").
-//                      gameObject.transform.Find("Character1_Spine1").gameObject;
-//          Spine2 = Spine1.transform.Find("Character1_Spine2").gameObject;
-//          LeftShoulder = Spine2.transform.Find("Character1_LeftShoulder").gameObject;
-//          LeftArm = LeftShoulder.transform.Find("Character1_LeftArm").gameObject;
-//          LeftForeArm = LeftArm.transform.Find("Character1_LeftForeArm").gameObject;
-//          LeftHand = LeftForeArm.transform.Find("Character1_LeftHand").gameObject;
-//          RightShoulder = Spine2.transform.Find("Character1_RightShoulder").gameObject;
-//          RightArm = RightShoulder.transform.Find("Character1_RightArm").gameObject;
-//          RightForeArm = RightArm.transform.Find("Character1_RightForeArm").gameObject;
-//          RightHand = RightForeArm.transform.Find("Character1_RightHand").gameObject;
-//          Neck = Spine2.transform.Find("Character1_Neck").gameObject;
-//          Head = Neck.transform.Find("Character1_Head").gameObject;
+         Ref = Player.transform.Find("Character1_Reference").gameObject;
+
+          Hips = Ref.gameObject.transform.Find("Character1_Hips").gameObject;
+          LeftUpLeg = Hips.transform.Find("Character1_LeftUpLeg").gameObject;
+          LeftLeg = LeftUpLeg.transform.Find("Character1_LeftLeg").gameObject;
+          RightUpLeg = Hips.transform.Find("Character1_RightUpLeg").gameObject;
+          RightLeg = RightUpLeg.transform.Find("Character1_RightLeg").gameObject;
+          Spine1 = Hips.transform.Find("Character1_Spine").
+                      gameObject.transform.Find("Character1_Spine1").gameObject;
+          Spine2 = Spine1.transform.Find("Character1_Spine2").gameObject;
+          LeftShoulder = Spine2.transform.Find("Character1_LeftShoulder").gameObject;
+          LeftArm = LeftShoulder.transform.Find("Character1_LeftArm").gameObject;
+          LeftForeArm = LeftArm.transform.Find("Character1_LeftForeArm").gameObject;
+          LeftHand = LeftForeArm.transform.Find("Character1_LeftHand").gameObject;
+          RightShoulder = Spine2.transform.Find("Character1_RightShoulder").gameObject;
+          RightArm = RightShoulder.transform.Find("Character1_RightArm").gameObject;
+          RightForeArm = RightArm.transform.Find("Character1_RightForeArm").gameObject;
+          RightHand = RightForeArm.transform.Find("Character1_RightHand").gameObject;
+          Neck = Spine2.transform.Find("Character1_Neck").gameObject;
+          Head = Neck.transform.Find("Character1_Head").gameObject;
     }
 
     // Update is called once per frame
