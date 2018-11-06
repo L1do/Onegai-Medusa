@@ -22,7 +22,7 @@ public class UIHannouImageManager : MonoBehaviour {
 		BadHannouImage.gameObject.SetActive(false);
 	}
 	
-	void OnTriggerEnter()
+	void OnTriggerEnter(Collider other)
 	{
 		//GoodHannouImage.transform.Translate(Vector2.up* fadeSpeed * Time.deltaTime);
 		//BadHannouImage.transform.Translate(Vector2.up* fadeSpeed * Time.deltaTime);
@@ -34,6 +34,12 @@ public class UIHannouImageManager : MonoBehaviour {
 		{
 			BadHannouImage.gameObject.SetActive(true);
 		}
+	}
+
+	void OnTriggerExit(Collider other)
+	{
+		GoodHannouImage.gameObject.SetActive(false);
+
 	}
 
 	void FixedUpdate()
