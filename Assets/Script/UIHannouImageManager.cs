@@ -9,17 +9,17 @@ public class UIHannouImageManager : MonoBehaviour {
 	public Image GoodHannouImage;
 	public Image BadHannouImage;
 	// get the script the handles the "Ashiba" Shader
-//public AudioSource audioSource;
-	public AudioSource GoodHannouSFX;
-	public AudioSource BadHannouSFX;
+
+	//public AudioSource GoodHannouSFX;
+	//public AudioSource BadHannouSFX;
 
 	public bool IsCollided = false;
 	public float fadeSpeed = 10f;
 	//public AshibaShaderManager AshibaShaderManager;
     void Awake()
 	{
-		GoodHannouSFX = GetComponent<AudioSource>();
-		BadHannouSFX = GetComponent<AudioSource>();
+	//	GoodHannouSFX = GetComponent<AudioSource>();
+	//	BadHannouSFX = GetComponent<AudioSource>();
 	}
 
 	
@@ -36,14 +36,14 @@ public class UIHannouImageManager : MonoBehaviour {
 		//BadHannouImage.transform.Translate(Vector2.up* fadeSpeed * Time.deltaTime);
 
 		GoodHannouImage.gameObject.SetActive(true);
-		GoodHannouSFX.Play();
+	//	GoodHannouSFX.Play();
 		
 		IsCollided = true;
 
 		if(IsCollided = false)
 		{
 			BadHannouImage.gameObject.SetActive(true);
-			BadHannouSFX.Play();
+	//		BadHannouSFX.Play();
 		}
 	}
 
@@ -58,9 +58,7 @@ public class UIHannouImageManager : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		//GoodHannouImage.transform.Translate(-Vector2.up* fadeSpeed * Time.deltaTime);
-		//BadHannouImage.transform.Translate(-Vector2.up* fadeSpeed * Time.deltaTime);
-
+		
 		
 	}
 }
