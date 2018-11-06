@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameStarterManager : MonoBehaviour {
 
@@ -17,18 +18,16 @@ public class GameStarterManager : MonoBehaviour {
 	// Use this for initialization
 	void Awake ()
 	{
-		zeroGear = GameObject.FindGameObjectWithTag("ZeroGear");
+	/* 	zeroGear = GameObject.FindGameObjectWithTag("ZeroGear");
 		firstGear = GameObject.FindGameObjectWithTag("FirstGear");
 		RightHand = GameObject.FindGameObjectWithTag("RightHand");
-		LeftHand = GameObject.FindGameObjectWithTag("LeftHand");
+		LeftHand = GameObject.FindGameObjectWithTag("LeftHand");*/
 	}
 
-	void OnTriggerEnter(Collider other)
-	{
-		Debug.Log ("Start Game");
-	}
-	void Start () {
-
+	
+	void Start ()
+	 {
+		countTimer = Time.time + 5;
 			
 	}
 	
@@ -36,22 +35,23 @@ public class GameStarterManager : MonoBehaviour {
 	void Update () {
 		
 	}
-	//void OnTriggerEnter(Collider other)
-   // {
-	//	Debug.Log ("Start Game");
-	//	firstGear.gameObject.SetActive(true);
-	//	zeroGear.gameObject.SetActive(false);
-		//countTimer = Time.time + 5;
+	void OnTriggerEnter(Collider other)
+   {
+	Debug.Log ("Change Scene");
+	SceneManager.LoadScene(1);
+	//firstGear.gameObject.SetActive(true);
+	//zeroGear.gameObject.SetActive(false);
+		
 
-		/*if (countTimer == 0)
+		/* if (countTimer == 0)
             return;
-			zeroGear.gameObject.SetActive(true);
-			firstGear.gameObject.SetActive(false);
+			
 
         if (Time.time > countTimer)
         {
-            countTimer = 0;
-           
+        	countTimer = 0;
+           	zeroGear.gameObject.SetActive(false);
+			firstGear.gameObject.SetActive(true);
         }
         else
         {
@@ -62,7 +62,7 @@ public class GameStarterManager : MonoBehaviour {
 //		SpeedManager.gameObject.SetActive(true);	
 			
 		           
-  //  }
+ 	}
 
 
 }
