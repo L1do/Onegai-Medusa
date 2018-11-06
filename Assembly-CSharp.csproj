@@ -214,6 +214,7 @@
      <Compile Include="Assets\SpriteStudioSample\Gauge\Bar\Scripts\SS5PUSample_Gauge_Bar.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Meter\Scripts\SS5PUSample_Gauge_Meter.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Sample_UpdateGauges.cs" />
+     <Compile Include="Assets\TestManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
