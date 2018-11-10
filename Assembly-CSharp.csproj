@@ -75,8 +75,11 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
+     <Compile Include="Assets\CountDownSpeed.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\GameKickStarter.cs" />
+     <Compile Include="Assets\GameReset.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
@@ -214,6 +217,7 @@
      <Compile Include="Assets\SpriteStudioSample\Gauge\Bar\Scripts\SS5PUSample_Gauge_Bar.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Meter\Scripts\SS5PUSample_Gauge_Meter.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Sample_UpdateGauges.cs" />
+     <Compile Include="Assets\TestManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />

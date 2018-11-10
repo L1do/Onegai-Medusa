@@ -18,7 +18,7 @@ public class SpeedManager : MonoBehaviour {
 	//move floor using the speed that is set on the "FirstGear" Gameobject.
 	void Start () 
 	{
-		firstGear.gameObject.SetActive(true);
+		firstGear.gameObject.SetActive(false);
 		secondGear.gameObject.SetActive(false);
 		zeroGear.gameObject.SetActive(false);	
 	}

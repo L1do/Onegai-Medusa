@@ -18,6 +18,6 @@ public class Level002LoadManager : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         // Debug.Log("当たった！！！");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 }
