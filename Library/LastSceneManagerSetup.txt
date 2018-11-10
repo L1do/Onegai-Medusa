@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Beta Play Test.unity
+- path: Assets/Scenes/Atari Test Scene.unity
   isLoaded: 1
   isActive: 1
