@@ -75,12 +75,8 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMesh.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
-     <Compile Include="Assets\AtariCheck.cs" />
-     <Compile Include="Assets\CountDownSpeed.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Basics.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Examples\Sequences.cs" />
-     <Compile Include="Assets\GameKickStarter.cs" />
-     <Compile Include="Assets\GameReset.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
@@ -94,6 +90,7 @@
      <Compile Include="Assets\Script\AshibaManager.cs" />
      <Compile Include="Assets\Script\AshibaManager02.cs" />
      <Compile Include="Assets\Script\AshibaShaderManager.cs" />
+     <Compile Include="Assets\Script\AtariCheck.cs" />
      <Compile Include="Assets\Script\AudioPlayer.cs" />
      <Compile Include="Assets\Script\BackToStartManager.cs" />
      <Compile Include="Assets\Script\BatsuCollisionManeger.cs" />
@@ -101,11 +98,14 @@
      <Compile Include="Assets\Script\CheckTunnelOut.cs" />
      <Compile Include="Assets\Script\CloudManeger.cs" />
      <Compile Include="Assets\Script\CollisionManeger.cs" />
+     <Compile Include="Assets\Script\CountDownSpeed.cs" />
      <Compile Include="Assets\Script\DamageVisualizermanager.cs" />
      <Compile Include="Assets\Script\FinishLineManager.cs" />
      <Compile Include="Assets\Script\FirstGearManager.cs" />
      <Compile Include="Assets\Script\FloorSpeedManager.cs" />
+     <Compile Include="Assets\Script\GameKickStarter.cs" />
      <Compile Include="Assets\Script\GameManeger.cs" />
+     <Compile Include="Assets\Script\GameReset.cs" />
      <Compile Include="Assets\Script\GameStarterManager.cs" />
      <Compile Include="Assets\Script\GameStopperManager.cs" />
      <Compile Include="Assets\Script\GreenPainterManager.cs" />
@@ -165,6 +165,7 @@
      <Compile Include="Assets\Script\SpriteStudio\ScriptLibrary\Utility\TableMaterial.cs" />
      <Compile Include="Assets\Script\StageCleanerManager.cs" />
      <Compile Include="Assets\Script\StartManager.cs" />
+     <Compile Include="Assets\Script\TestManager.cs" />
      <Compile Include="Assets\Script\ThirdGearManager.cs" />
      <Compile Include="Assets\Script\UIHannouImageManager.cs" />
      <Compile Include="Assets\Script\UserInterfaceManager.cs" />
@@ -218,7 +219,6 @@
      <Compile Include="Assets\SpriteStudioSample\Gauge\Bar\Scripts\SS5PUSample_Gauge_Bar.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Meter\Scripts\SS5PUSample_Gauge_Meter.cs" />
      <Compile Include="Assets\SpriteStudioSample\Gauge\Sample_UpdateGauges.cs" />
-     <Compile Include="Assets\TestManager.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
