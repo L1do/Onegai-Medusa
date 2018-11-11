@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AtariCheck : MonoBehaviour {
 
-	public bool playerKneesAreBending= false;
+	public bool playerKneesAreBending;
 
 	GameObject Player;
 
