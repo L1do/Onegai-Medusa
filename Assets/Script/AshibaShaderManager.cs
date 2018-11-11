@@ -98,7 +98,7 @@ public class AshibaShaderManager : MonoBehaviour {
       //  rend001.material.shader = Shader.Find("_Emission");
        //rend001.material.SetColor("_EmissionColor", Color.green);
 	 	
-		Debug.Log ("左足が当たった");
+//		Debug.Log ("左足が当たった");
 		           
     }
 

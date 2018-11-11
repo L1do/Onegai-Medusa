@@ -1,65 +1,52 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AtariCheck : MonoBehaviour {
 
-	public bool isHit = false;
+	public bool playerKneesAreBending= false;
 
+	GameObject Player;
 
+	public Image GoodHannouImage;
+	public Image BadHannouImage;
 
-	void Start () {
-
-		//isNotHit = true;
-
-
-		
+	void Awake()
+	{
+		Player = GameObject.FindGameObjectWithTag("Player");
 	}
 
-
-	void onTriggerEnter()
+	void Start ()
 	{
 
+		GoodHannouImage.gameObject.SetActive(false);
+		BadHannouImage.gameObject.SetActive(false);
 	}
-
-	void onTriggerStay()
+	void OnTriggerEnter(Collider other)
 	{
+		//colliderIsEmpty = false;
 
-	}
-
-	void OnTriggerExit()
-	{
-		isHit = true;
-
-		if(isHit = true)
+		if(other.tag == "Player" )
 		{
+			playerKneesAreBending = false;
 			Debug.Log ("オブジェクトが残っている");
-
-
+			BadHannouImage.gameObject.SetActive(true);
+			
 		}
 
-		Debug.Log ("当たらなかった");
-		//isHit = false;
+		if(playerKneesAreBending = true)
+		{
+			Debug.Log ("当たった");	
+			GoodHannouImage.gameObject.SetActive(true);
+		}
 
-		//if(isNotHit = false)
-		//{
-		//	Debug.Log ("当たらなかった");
-
-
-		//}
-
-		
-
-
-		//Debug.Log ("当たった!");
 	}
 
-	// Use this for initialization
-	
-	
-	// Update is called once per frame
-	void Update () {
-		
-		
+	void OnTriggerExit(Collider other)
+	{
+		GoodHannouImage.gameObject.SetActive(false);
+		BadHannouImage.gameObject.SetActive(false);
 	}
+	
 }

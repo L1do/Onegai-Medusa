@@ -35,7 +35,7 @@ public class RestartManager : MonoBehaviour {
 	void OnTriggerStay(Collider other) 
 	{
 
-		Debug.Log ("Start floor Again");	
+//		Debug.Log ("Start floor Again");	
 		zeroGear.gameObject.SetActive(false);
 		firstGear.gameObject.SetActive(true);	
 			

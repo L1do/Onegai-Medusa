@@ -12,7 +12,7 @@ public class CountDownSpeed : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		 Vector3 pos = this.gameObject.transform.localPosition;
-        pos.z += -0.0f;
+        pos.z += -0.22f;
         this.gameObject.transform.localPosition = pos;
 	}
 }
