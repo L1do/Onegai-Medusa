@@ -41,11 +41,11 @@ public class AtariCheck : MonoBehaviour {
 			BadHannouImage.gameObject.SetActive(true);
 			
 			}
-			else
-			{
-				playerKneesAreBending = true;
-				
-			}
+		//	else
+		//	{
+		//		playerKneesAreBending = true;
+		//		
+		//	}
 
 		
 			
@@ -55,15 +55,15 @@ public class AtariCheck : MonoBehaviour {
 
 	}
 
-	public void CheckPlayer()
-	{
-		if(playerKneesAreBending = true)
-			{
+//	public void CheckPlayer()
+///	{
+//		if(playerKneesAreBending = true)
+//			{
 
-			Debug.Log ("The Player is outside the collider");	
-			GoodHannouImage.gameObject.SetActive(true);
-			}
-	}
+//			Debug.Log ("The Player is outside the collider");	
+//			GoodHannouImage.gameObject.SetActive(true);
+//			}
+//	}
 
 	void Update()
 	{
