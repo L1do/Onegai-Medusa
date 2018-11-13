@@ -44,6 +44,7 @@ public class AtariCheck : MonoBehaviour {
 			else
 			{
 				playerKneesAreBending = true;
+				
 			}
 
 		
