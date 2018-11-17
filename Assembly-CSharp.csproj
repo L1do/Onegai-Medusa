@@ -87,7 +87,6 @@
      <Compile Include="Assets\KinectView\Scripts\InfraredSourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\InfraredSourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
-     <Compile Include="Assets\Scenes\ScrollManager.cs" />
      <Compile Include="Assets\Script\AshibaManager.cs" />
      <Compile Include="Assets\Script\AshibaManager02.cs" />
      <Compile Include="Assets\Script\AshibaShaderManager.cs" />
@@ -143,6 +142,7 @@
      <Compile Include="Assets\Script\RouteBManager.cs" />
      <Compile Include="Assets\Script\RouteSelectManeger.cs" />
      <Compile Include="Assets\Script\SceneManeger.cs" />
+     <Compile Include="Assets\Script\ScrollManager.cs" />
      <Compile Include="Assets\Script\SecondGearManager.cs" />
      <Compile Include="Assets\Script\SoundEffectManager.cs" />
      <Compile Include="Assets\Script\SpeedBumpManager.cs" />
