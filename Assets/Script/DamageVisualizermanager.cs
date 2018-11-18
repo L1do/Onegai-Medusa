@@ -17,14 +17,14 @@ public class DamageVisualizermanager : MonoBehaviour {
 
 
 
-    //AudioSource playerAudio; 
+    AudioSource playerAudio; 
     // bool damaged;                                              
 
 
     void Awake()
     {
      //DamageImage = GameObject.FindGameObjectWithTag("DamageImage");
-        //playerAudio = GetComponent<AudioSource>();
+        playerAudio = GetComponent<AudioSource>();
         //kamigubuki
        // anim = GetComponent<Animator>();
 
@@ -48,7 +48,7 @@ public class DamageVisualizermanager : MonoBehaviour {
        // Debug.Log("当たった！！！");
        DamageImage.color = flashColour;
         // Play the hurt sound effect.
-        // playerAudio.Play();
+      playerAudio.Play();
        // Shake.StartCameraShake();
 
     }
