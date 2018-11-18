@@ -23,7 +23,7 @@ public class DamageVisualizermanager : MonoBehaviour {
 
     void Awake()
     {
-      //DamageImage = GameObject.FindGameObjectWithTag("DamageImage");
+     //DamageImage = GameObject.FindGameObjectWithTag("DamageImage");
         //playerAudio = GetComponent<AudioSource>();
         //kamigubuki
        // anim = GetComponent<Animator>();
@@ -32,6 +32,7 @@ public class DamageVisualizermanager : MonoBehaviour {
 
 
     void Start () {
+      DamageImage.color = clearColour;
       //  Shake = this.gameObject.GetComponent<CameraShakeManager>();
     }
 
