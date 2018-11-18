@@ -36,6 +36,12 @@ public class AtariCheckAshiba : MonoBehaviour {
 		BadHannouSFX.gameObject.SetActive(false);
 		GoodHannouImage.gameObject.SetActive(false);
 
+		if(GoodHannouImage.enabled)
+		{
+			GoodHannouImage.gameObject.SetActive(false);
+
+		}
+
 
 	}
 	void OnTriggerExit(Collider other)
