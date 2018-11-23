@@ -7,25 +7,36 @@ public class AtariCheck : MonoBehaviour {
 
 	bool playerKneesAreBending = false;
 	bool checkIfPlayerIsInCollider = false;
+	public bool ashibaIsHit = false;
 
 	GameObject Player;
 
 	public Image GoodHannouImage;
 	public Image BadHannouImage;
 
+	GameObject GoodHannouSFX;
+	GameObject BadHannouSFX;
+
+
 	void Awake()
 	{
+		GoodHannouSFX = GameObject.FindGameObjectWithTag("GoodHannouSFX");
+		BadHannouSFX= GameObject.FindGameObjectWithTag("BadHannouSFX");
+
 		Player = GameObject.FindGameObjectWithTag("Player");
 	}
 
 	void Start ()
 	{
+		GoodHannouSFX.gameObject.SetActive(false);
+		BadHannouSFX.gameObject.SetActive(false);
 
 		GoodHannouImage.gameObject.SetActive(false);
 		BadHannouImage.gameObject.SetActive(false);
 	}
 	void OnTriggerEnter(Collider other)
 	{
+		ashibaIsHit = true;
 		//colliderIsEmpty = false;
 		checkIfPlayerIsInCollider = true;
 
@@ -39,7 +50,7 @@ public class AtariCheck : MonoBehaviour {
 			playerKneesAreBending = false;
 			Debug.Log ("The Player is still in the collider");
 			BadHannouImage.gameObject.SetActive(true);
-			
+			BadHannouSFX.gameObject.SetActive(true);
 			}
 			else
 			{
@@ -55,7 +66,7 @@ public class AtariCheck : MonoBehaviour {
 
 	}
 
-	public void CheckPlayer()
+	/* public void CheckForCollision()
 	{
 		if(playerKneesAreBending = true)
 			{
@@ -63,7 +74,7 @@ public class AtariCheck : MonoBehaviour {
 			Debug.Log ("The Player is outside the collider");	
 			GoodHannouImage.gameObject.SetActive(true);
 			}
-	}
+	}*/
 
 	void Update()
 	{
@@ -75,10 +86,12 @@ public class AtariCheck : MonoBehaviour {
 
 	void OnTriggerExit(Collider other)
 	{
+		ashibaIsHit = false;
 		checkIfPlayerIsInCollider = false;
 
 		GoodHannouImage.gameObject.SetActive(false);
 		BadHannouImage.gameObject.SetActive(false);
+		BadHannouSFX.gameObject.SetActive(false);
 	}
 	
 }
