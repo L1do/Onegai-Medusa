@@ -25,32 +25,25 @@ public class DamageVisualizermanager : MonoBehaviour {
     {
      //DamageImage = GameObject.FindGameObjectWithTag("DamageImage");
         playerAudio = GetComponent<AudioSource>();
-        //kamigubuki
-       // anim = GetComponent<Animator>();
+     
 
     }
 
 
     void Start () {
       DamageImage.color = clearColour;
-      //  Shake = this.gameObject.GetComponent<CameraShakeManager>();
+     
     }
 
-    // Update is called once per frame
-    //void Update () {
-
-    //}
+ 
 
     void OnTriggerEnter(Collider other)
     {
-        // Set the damaged flag so the screen will flash.
-        // damaged = true;
-       // Debug.Log("当たった！！！");
+ 
        DamageImage.color = flashColour;
         // Play the hurt sound effect.
       playerAudio.Play();
-       // Shake.StartCameraShake();
-
+ 
     }
 
     void OnTriggerExit(Collider other)
@@ -59,8 +52,7 @@ public class DamageVisualizermanager : MonoBehaviour {
         // damaged = true;
         
       DamageImage.color = clearColour;
-        // Play the hurt sound effect.
-        // playerAudio.Play();
+ 
 
         //kamigubuki
         //anim.SetTrigger("抜けた");
