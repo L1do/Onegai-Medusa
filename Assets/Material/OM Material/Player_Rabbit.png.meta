@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 1e70d0a363e6a804fb72d4182320fdb9
+timeCreated: 1540621532
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Player_Rabbit_0
+    21300002: Player_Rabbit_1
+    21300004: Player_Rabbit_2
+    21300006: Player_Rabbit_3
+    21300008: Player_Rabbit_4
+    21300010: Player_Rabbit_5
+    21300012: Player_Rabbit_6
+    21300014: Player_Rabbit_7
+    21300016: Player_Rabbit_8
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Player_Rabbit_0
+      rect:
+        serializedVersion: 2
+        x: 7.673177
+        y: 487.98663
+        width: 1135.6157
+        height: 1492.5481
+      alignment: 9
+      pivot: {x: 0.4805438, y: 0.49487668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_1
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1631.9557
+        width: 479.84387
+        height: 230.38452
+      alignment: 9
+      pivot: {x: 0.49912095, y: 0.49718755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_2
+      rect:
+        serializedVersion: 2
+        x: 1775.9999
+        y: 1542.9581
+        width: 603.3595
+        height: 405.96582
+      alignment: 9
+      pivot: {x: 0.4988736, y: 0.49891362}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_3
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1082.9705
+        width: 626.3673
+        height: 405.96594
+      alignment: 9
+      pivot: {x: 0.49890876, y: 0.4988834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_4
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1169.9681
+        width: 439.8828
+        height: 230.38464
+      alignment: 9
+      pivot: {x: 0.49899656, y: 0.49713376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_5
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 548.98505
+        width: 335.7422
+        height: 361.1623
+      alignment: 9
+      pivot: {x: 0.49889505, y: 0.4984323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_6
+      rect:
+        serializedVersion: 2
+        x: 1960.9999
+        y: 561.9846
+        width: 327.26575
+        height: 347.8424
+      alignment: 9
+      pivot: {x: 0.49806654, y: 0.49883333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_7
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 64.99811
+        width: 534.33594
+        height: 396.27863
+      alignment: 9
+      pivot: {x: 0.4987499, y: 0.49839148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_Rabbit_8
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 64.99811
+        width: 529.4922
+        height: 384.16956
+      alignment: 9
+      pivot: {x: 0.49953523, y: 0.50889486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 100966168985600
+  assetBundleName: 
+  assetBundleVariant: 

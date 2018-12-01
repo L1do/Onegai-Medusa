@@ -42,10 +42,12 @@ public class AtariCheck : MonoBehaviour {
 
 		
 
-		if(checkIfPlayerIsInCollider = true)
+		if(checkIfPlayerIsInCollider == true)
 		{
 			if(other.tag == "Player" )
 			{
+				// animation play
+				//Player.GetComponent<Animator>().SetTrigger("Jump");
 				
 			playerKneesAreBending = false;
 			Debug.Log ("The Player is still in the collider");

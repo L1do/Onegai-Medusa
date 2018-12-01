@@ -1,0 +1,409 @@
+fileFormatVersion: 2
+guid: 6793106965ed9ae4c98707f77918f92e
+timeCreated: 1543492306
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Frog_1105_0
+    21300002: Frog_1105_1
+    21300004: Frog_1105_2
+    21300006: Frog_1105_3
+    21300008: Frog_1105_4
+    21300010: Frog_1105_5
+    21300012: Frog_1105_6
+    21300014: Frog_1105_7
+    21300016: Frog_1105_8
+    21300018: Frog_1105_9
+    21300020: Frog_1105_10
+    21300022: Frog_1105_11
+    21300024: Frog_1105_12
+    21300026: Frog_1105_13
+    21300028: Frog_1105_14
+    21300030: Frog_1105_15
+    21300032: Frog_1105_16
+    21300034: Frog_1105_17
+    21300036: Frog_1105_18
+    21300038: Frog_1105_19
+    21300040: Frog_1105_20
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Frog_1105_0
+      rect:
+        serializedVersion: 2
+        x: 50.79007
+        y: 1434.7968
+        width: 674.6741
+        height: 577.8174
+      alignment: 9
+      pivot: {x: 0.50091225, y: 0.49946845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_1
+      rect:
+        serializedVersion: 2
+        x: 831.56714
+        y: 1785
+        width: 442.2871
+        height: 208.594
+      alignment: 9
+      pivot: {x: 0.5178847, y: 0.39495742}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_2
+      rect:
+        serializedVersion: 2
+        x: 1425.669
+        y: 1759.2102
+        width: 168.22949
+        height: 174.46057
+      alignment: 9
+      pivot: {x: 0.5510116, y: 0.49868143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_3
+      rect:
+        serializedVersion: 2
+        x: 1791.7715
+        y: 1831.9999
+        width: 166.16101
+        height: 171.35754
+      alignment: 9
+      pivot: {x: 0.4882908, y: 0.4673032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_4
+      rect:
+        serializedVersion: 2
+        x: 829.21436
+        y: 1408.9999
+        width: 479.51758
+        height: 273.75757
+      alignment: 9
+      pivot: {x: 0.5110463, y: 0.50355077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_5
+      rect:
+        serializedVersion: 2
+        x: 1442.4152
+        y: 1485.649
+        width: 170.29785
+        height: 174.46057
+      alignment: 9
+      pivot: {x: 0.56111336, y: 0.48806974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_6
+      rect:
+        serializedVersion: 2
+        x: 1808.006
+        y: 1557.9999
+        width: 167.19531
+        height: 170.32324
+      alignment: 9
+      pivot: {x: 0.53058195, y: 0.46732217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_7
+      rect:
+        serializedVersion: 2
+        x: 173.77054
+        y: 965.5027
+        width: 487.11978
+        height: 419.96118
+      alignment: 9
+      pivot: {x: 0.5090399, y: 0.4864501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_8
+      rect:
+        serializedVersion: 2
+        x: 1461.061
+        y: 1227
+        width: 168.22949
+        height: 173.42627
+      alignment: 9
+      pivot: {x: 0.5811197, y: 0.49097988}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_9
+      rect:
+        serializedVersion: 2
+        x: 1827.3884
+        y: 1298
+        width: 168.22949
+        height: 171.35754
+      alignment: 9
+      pivot: {x: 0.49501354, y: 0.47238594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_10
+      rect:
+        serializedVersion: 2
+        x: 850.85986
+        y: 1201
+        width: 467.10742
+        height: 106.19397
+      alignment: 9
+      pivot: {x: 0.5088942, y: 0.39260936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_11
+      rect:
+        serializedVersion: 2
+        x: 1819.7063
+        y: 1043.9999
+        width: 167.19531
+        height: 169.28894
+      alignment: 9
+      pivot: {x: 0.5063534, y: 0.4512657}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_12
+      rect:
+        serializedVersion: 2
+        x: 925.49695
+        y: 890.99994
+        width: 314.04883
+        height: 228.2464
+      alignment: 9
+      pivot: {x: 0.50316554, y: 0.46767706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_13
+      rect:
+        serializedVersion: 2
+        x: 1451.4481
+        y: 971
+        width: 169.26367
+        height: 176.5293
+      alignment: 9
+      pivot: {x: 0.53449714, y: 0.506153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_14
+      rect:
+        serializedVersion: 2
+        x: 124.1633
+        y: 598.39136
+        width: 151.68262
+        height: 242.95001
+      alignment: 9
+      pivot: {x: 0.54263693, y: 0.47834605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_15
+      rect:
+        serializedVersion: 2
+        x: 431.0893
+        y: 616.23914
+        width: 135.13574
+        height: 244.79596
+      alignment: 9
+      pivot: {x: 0.59776956, y: 0.42661136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_16
+      rect:
+        serializedVersion: 2
+        x: 710.50085
+        y: 609.99994
+        width: 234.6502
+        height: 199.28491
+      alignment: 9
+      pivot: {x: 0.539748, y: 0.5598181}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_17
+      rect:
+        serializedVersion: 2
+        x: 1389.9529
+        y: 77.000015
+        width: 536.39746
+        height: 764.0364
+      alignment: 9
+      pivot: {x: 0.48380783, y: 0.5070043}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_18
+      rect:
+        serializedVersion: 2
+        x: 112.03818
+        y: 184.83328
+        width: 308.92712
+        height: 257.45334
+      alignment: 9
+      pivot: {x: 0.50402087, y: 0.5169235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_19
+      rect:
+        serializedVersion: 2
+        x: 462.5381
+        y: 185.90532
+        width: 342.49042
+        height: 252.03639
+      alignment: 9
+      pivot: {x: 0.53483135, y: 0.46202347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Frog_1105_20
+      rect:
+        serializedVersion: 2
+        x: 905.9524
+        y: 226.00002
+        width: 255.10059
+        height: 172.39189
+      alignment: 9
+      pivot: {x: 0.512698, y: 0.5198924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 101154299054309
+  assetBundleName: 
+  assetBundleVariant: 
