@@ -6,14 +6,22 @@ using UnityEngine;
 public class RabbitHitManager : MonoBehaviour {
 
 	[SerializeField]
-	RabbitBodyHit left;
+	RabbitBodyHit Foot_L;
 
 	[SerializeField]
-	RabbitBodyHit right;
+	RabbitBodyHit Foot_R;
+
+	[SerializeField]
+	RabbitBodyHit Hand_L;
+
+	[SerializeField]
+	RabbitBodyHit Hand_R;
 
 	void Start () {
-		left.OnHit += hitCheck;
-		right.OnHit += hitCheck;
+		Foot_L.OnHit += hitCheck;
+		Foot_R.OnHit += hitCheck;
+		Hand_L.OnHit += hitCheck;
+		Hand_R.OnHit += hitCheck;
 	}
 
 
@@ -21,15 +29,17 @@ public class RabbitHitManager : MonoBehaviour {
 	{
 		Debug.Log ("RabbitHitManager.hitCheck");
 
-		if (left.IsHit == true && right.IsHit == false) {
+		if (Foot_L.IsHit == true && Foot_R.IsHit == false) {
 			Debug.Log ("左足ぶつかった");
+			GetComponent<Animator>().SetTrigger("LeftJump");
 		}
 
-		if (left.IsHit == false && right.IsHit == true) {
+		if (Foot_L.IsHit == false && Foot_R.IsHit == true) {
 			Debug.Log ("右足ぶつかった");
+			GetComponent<Animator>().SetTrigger("RightJump");
 		}
 
-		if (left.IsHit == true && right.IsHit == true)
+		if (Foot_L.IsHit == true && Foot_R.IsHit == true)
 		{
 			Debug.Log ("両足ぶつかった");
 			GetComponent<Animator>().SetTrigger("Jump");
