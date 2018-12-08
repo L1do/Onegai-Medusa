@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ba4dc79f365854c42b52ea2e44c4de22
-timeCreated: 1543638487
+timeCreated: 1544083940
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -82,12 +82,12 @@ TextureImporter:
       name: Skull_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 6
-        width: 224
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 11
+        y: 1
+        width: 234
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5019608}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -95,6 +95,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 
+  userData: 101164925224536
   assetBundleName: 
   assetBundleVariant: 

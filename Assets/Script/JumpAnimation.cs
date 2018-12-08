@@ -8,7 +8,7 @@ public class JumpAnimation : MonoBehaviour {
 
 	void Awake()
 	{
-		PlayerRabbit = GameObject.FindGameObjectWithTag("PlayerRabbit");
+		//PlayerRabbit = GameObject.FindGameObjectWithTag("PlayerRabbit");
 	}
 	void Start ()
 	{
@@ -17,10 +17,8 @@ public class JumpAnimation : MonoBehaviour {
 	void OnTriggerEnter(Collider other)
 	{
 		// animation play
-		PlayerRabbit.GetComponent<Animator>().SetTrigger("Jump");
-
-		Debug.Log ("animation is playing");
-
+		//PlayerRabbit.GetComponent<Animator>().SetTrigger("Jump");
+		//Debug.Log ("animation is playing");
 	}
 
 

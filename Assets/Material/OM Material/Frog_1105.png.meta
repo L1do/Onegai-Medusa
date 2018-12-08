@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6793106965ed9ae4c98707f77918f92e
-timeCreated: 1543492306
+guid: 110297add672943f8bdcd118108c7a95
+timeCreated: 1542449030
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -95,15 +95,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -111,12 +102,12 @@ TextureImporter:
       name: Frog_1105_0
       rect:
         serializedVersion: 2
-        x: 50.79007
-        y: 1434.7968
-        width: 674.6741
-        height: 577.8174
+        x: 180.97055
+        y: 1442
+        width: 665.6699
+        height: 570.61414
       alignment: 9
-      pivot: {x: 0.50091225, y: 0.49946845}
+      pivot: {x: 0.4987899, y: 0.49946165}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -125,12 +116,12 @@ TextureImporter:
       name: Frog_1105_1
       rect:
         serializedVersion: 2
-        x: 831.56714
+        x: 958.8474
         y: 1785
         width: 442.2871
         height: 208.594
       alignment: 9
-      pivot: {x: 0.5178847, y: 0.39495742}
+      pivot: {x: 0.49888995, y: 0.4985768}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,12 +130,12 @@ TextureImporter:
       name: Frog_1105_2
       rect:
         serializedVersion: 2
-        x: 1425.669
-        y: 1759.2102
+        x: 1552.7533
+        y: 1761
         width: 168.22949
         height: 174.46057
       alignment: 9
-      pivot: {x: 0.5510116, y: 0.49868143}
+      pivot: {x: 0.49781224, y: 0.49868003}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +144,12 @@ TextureImporter:
       name: Frog_1105_3
       rect:
         serializedVersion: 2
-        x: 1791.7715
-        y: 1831.9999
+        x: 1918.6954
+        y: 1832
         width: 166.16101
         height: 171.35754
       alignment: 9
-      pivot: {x: 0.4882908, y: 0.4673032}
+      pivot: {x: 0.50134844, y: 0.4989567}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -167,12 +158,12 @@ TextureImporter:
       name: Frog_1105_4
       rect:
         serializedVersion: 2
-        x: 829.21436
-        y: 1408.9999
+        x: 954.848
+        y: 1409
         width: 479.51758
         height: 273.75757
       alignment: 9
-      pivot: {x: 0.5110463, y: 0.50355077}
+      pivot: {x: 0.4997773, y: 0.49861634}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +172,12 @@ TextureImporter:
       name: Frog_1105_5
       rect:
         serializedVersion: 2
-        x: 1442.4152
-        y: 1485.649
+        x: 1570.7505
+        y: 1487
         width: 170.29785
         height: 174.46057
       alignment: 9
-      pivot: {x: 0.56111336, y: 0.48806974}
+      pivot: {x: 0.49765462, y: 0.49581406}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -195,12 +186,12 @@ TextureImporter:
       name: Frog_1105_6
       rect:
         serializedVersion: 2
-        x: 1808.006
-        y: 1557.9999
+        x: 1937.6924
+        y: 1558
         width: 167.19531
         height: 170.32324
       alignment: 9
-      pivot: {x: 0.53058195, y: 0.46732217}
+      pivot: {x: 0.498266, y: 0.49905038}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -209,12 +200,12 @@ TextureImporter:
       name: Frog_1105_7
       rect:
         serializedVersion: 2
-        x: 173.77054
-        y: 965.5027
-        width: 487.11978
-        height: 419.96118
+        x: 303.95108
+        y: 971
+        width: 476.41507
+        height: 409.2566
       alignment: 9
-      pivot: {x: 0.5090399, y: 0.4864501}
+      pivot: {x: 0.49861753, y: 0.4984648}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +214,12 @@ TextureImporter:
       name: Frog_1105_8
       rect:
         serializedVersion: 2
-        x: 1461.061
+        x: 1590.7473
         y: 1227
         width: 168.22949
         height: 173.42627
       alignment: 9
-      pivot: {x: 0.5811197, y: 0.49097988}
+      pivot: {x: 0.5008192, y: 0.49877104}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -237,12 +228,12 @@ TextureImporter:
       name: Frog_1105_9
       rect:
         serializedVersion: 2
-        x: 1827.3884
+        x: 1955.7239
         y: 1298
-        width: 168.22949
+        width: 162.27612
         height: 171.35754
       alignment: 9
-      pivot: {x: 0.49501354, y: 0.47238594}
+      pivot: {x: 0.5131747, y: 0.49603814}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -251,12 +242,12 @@ TextureImporter:
       name: Frog_1105_10
       rect:
         serializedVersion: 2
-        x: 850.85986
+        x: 977.84436
         y: 1201
         width: 467.10742
         height: 106.19397
       alignment: 9
-      pivot: {x: 0.5088942, y: 0.39260936}
+      pivot: {x: 0.5002182, y: 0.49437833}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,12 +256,12 @@ TextureImporter:
       name: Frog_1105_11
       rect:
         serializedVersion: 2
-        x: 1819.7063
-        y: 1043.9999
+        x: 1946.6909
+        y: 1044
         width: 167.19531
         height: 169.28894
       alignment: 9
-      pivot: {x: 0.5063534, y: 0.4512657}
+      pivot: {x: 0.49827403, y: 0.4991466}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -279,12 +270,12 @@ TextureImporter:
       name: Frog_1105_12
       rect:
         serializedVersion: 2
-        x: 925.49695
-        y: 890.99994
+        x: 1053.8324
+        y: 891
         width: 314.04883
-        height: 228.2464
+        height: 228.24646
       alignment: 9
-      pivot: {x: 0.50316554, y: 0.46767706}
+      pivot: {x: 0.49886382, y: 0.49726978}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -293,12 +284,12 @@ TextureImporter:
       name: Frog_1105_13
       rect:
         serializedVersion: 2
-        x: 1451.4481
+        x: 1579.7834
         y: 971
         width: 169.26367
         height: 176.5293
       alignment: 9
-      pivot: {x: 0.53449714, y: 0.506153}
+      pivot: {x: 0.49459255, y: 0.49850082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +298,12 @@ TextureImporter:
       name: Frog_1105_14
       rect:
         serializedVersion: 2
-        x: 124.1633
-        y: 598.39136
+        x: 250.95947
+        y: 602
         width: 151.68262
-        height: 242.95001
+        height: 237.55554
       alignment: 9
-      pivot: {x: 0.54263693, y: 0.47834605}
+      pivot: {x: 0.49801704, y: 0.49672592}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -321,12 +312,12 @@ TextureImporter:
       name: Frog_1105_15
       rect:
         serializedVersion: 2
-        x: 431.0893
-        y: 616.23914
+        x: 560.9104
+        y: 615
         width: 135.13574
         height: 244.79596
       alignment: 9
-      pivot: {x: 0.59776956, y: 0.42661136}
+      pivot: {x: 0.5001608, y: 0.49837422}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -335,12 +326,12 @@ TextureImporter:
       name: Frog_1105_16
       rect:
         serializedVersion: 2
-        x: 710.50085
-        y: 609.99994
-        width: 234.6502
-        height: 199.28491
+        x: 838.9007
+        y: 610
+        width: 230.28033
+        height: 199.28485
       alignment: 9
-      pivot: {x: 0.539748, y: 0.5598181}
+      pivot: {x: 0.497651, y: 0.49677634}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +340,12 @@ TextureImporter:
       name: Frog_1105_17
       rect:
         serializedVersion: 2
-        x: 1389.9529
-        y: 77.000015
+        x: 1517.7932
+        y: 77
         width: 536.39746
         height: 764.0364
       alignment: 9
-      pivot: {x: 0.48380783, y: 0.5070043}
+      pivot: {x: 0.49908286, y: 0.49997622}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -363,12 +354,12 @@ TextureImporter:
       name: Frog_1105_18
       rect:
         serializedVersion: 2
-        x: 112.03818
-        y: 184.83328
-        width: 308.92712
-        height: 257.45334
+        x: 240.96106
+        y: 187
+        width: 307.84375
+        height: 252.03638
       alignment: 9
-      pivot: {x: 0.50402087, y: 0.5169235}
+      pivot: {x: 0.49875608, y: 0.49794403}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -377,12 +368,12 @@ TextureImporter:
       name: Frog_1105_19
       rect:
         serializedVersion: 2
-        x: 462.5381
-        y: 185.90532
-        width: 342.49042
-        height: 252.03639
+        x: 592.90533
+        y: 185
+        width: 338.86914
+        height: 252.03638
       alignment: 9
-      pivot: {x: 0.53483135, y: 0.46202347}
+      pivot: {x: 0.50047266, y: 0.49794403}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,12 +382,12 @@ TextureImporter:
       name: Frog_1105_20
       rect:
         serializedVersion: 2
-        x: 905.9524
-        y: 226.00002
+        x: 1032.8357
+        y: 226
         width: 255.10059
-        height: 172.39189
+        height: 172.3919
       alignment: 9
-      pivot: {x: 0.512698, y: 0.5198924}
+      pivot: {x: 0.49848694, y: 0.4988633}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,6 +395,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 101154299054309
+  userData: 101085840474112
   assetBundleName: 
   assetBundleVariant: 
