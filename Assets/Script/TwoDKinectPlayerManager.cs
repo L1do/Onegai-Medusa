@@ -54,9 +54,9 @@ public class TwoDKinectPlayerManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {   
-        BodyBone = PlayerRabbit.transform.Find("Body_Bone").gameObject;      
+       // BodyBone = PlayerRabbit.transform.Find("Body_Bone").gameObject;      
        // HeadBone = PlayerRabbit.transform.Find("Head_Bone").gameObject;
-      //   Ref = PlayerRabbit.transform.Find("Character1_Reference").gameObject;
+       //  Ref = PlayerRabbit.transform.Find("Character1_Reference").gameObject;
 
       //  UpperArmLeftBone = PlayerRabbit.transform.Find("UpperArm_L_Bone").gameObject;
         //LowerArmLeftBone = PlayerRabbit.transform.Find("LowerArm_L_Bone").gameObject;
