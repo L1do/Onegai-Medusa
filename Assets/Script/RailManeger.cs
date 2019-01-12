@@ -12,7 +12,7 @@ public class RailManeger : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Vector3 pos = this.gameObject.transform.localPosition;
-        pos.z += -0.09f;
+        pos.z += -0.11f;
         this.gameObject.transform.localPosition = pos;
     }
 }

@@ -42,14 +42,14 @@ public class ZeroGearManager : MonoBehaviour {
         this.gameObject.transform.localPosition = pos;*/
 
 	AshibaSet001.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	AshibaSet002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	//AshibaSet002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	PoseStage001.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump001.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	RouteSelectStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	//RouteSelectStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	StartStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	BossStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	AshibaSet003A.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
-	RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	//BossStage.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	//AshibaSet003A.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
+	//RouteManager.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	SpeedBump002.transform.Translate(-Vector3.forward* normalSpeed * Time.deltaTime);
 	}
 }

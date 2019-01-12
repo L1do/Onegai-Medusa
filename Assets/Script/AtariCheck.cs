@@ -50,9 +50,9 @@ public class AtariCheck : MonoBehaviour {
 				//Player.GetComponent<Animator>().SetTrigger("Jump");
 				
 			playerKneesAreBending = false;
-			Debug.Log ("The Player is still in the collider");
-			BadHannouImage.gameObject.SetActive(true);
-			BadHannouSFX.gameObject.SetActive(true);
+				Debug.LogWarning ("The Player is still in the collider");
+//			BadHannouImage.gameObject.SetActive(true);
+//			BadHannouSFX.gameObject.SetActive(true);
 			}
 			else
 			{
@@ -91,9 +91,9 @@ public class AtariCheck : MonoBehaviour {
 		ashibaIsHit = false;
 		checkIfPlayerIsInCollider = false;
 
-		GoodHannouImage.gameObject.SetActive(false);
-		BadHannouImage.gameObject.SetActive(false);
-		BadHannouSFX.gameObject.SetActive(false);
+		// GoodHannouImage.gameObject.SetActive(false);
+		// BadHannouImage.gameObject.SetActive(false);
+		// BadHannouSFX.gameObject.SetActive(false);
 	}
 	
 }

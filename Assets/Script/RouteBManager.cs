@@ -23,8 +23,8 @@ public class RouteBManager : MonoBehaviour {
 	}
 	void Start () {
 		
-		AshibaSet003A.gameObject.SetActive(false);	
-		AshibaSet003B.gameObject.SetActive(false);	
+//		AshibaSet003A.gameObject.SetActive(false);	
+//		AshibaSet003B.gameObject.SetActive(false);	
 
 	}
 	
